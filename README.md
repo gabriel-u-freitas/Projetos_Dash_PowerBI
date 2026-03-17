@@ -6,20 +6,20 @@ Os projetos exploram **Power Query, modelagem de dados e criação de métricas 
 
 ### Projetos
 
-- [Dashboard Overview Parrot Technology](LINK)
-- [Dashboard Comercial](LINK)
+- [Dashboard Overview Parrot Technology](./Projeto%20Parrot%20Technology)
+- [Dashboard Comercial](./Projeto%20Dashboard%20Comercial)
 
 ---
 
 ### Dashboard Overview Parrot Technology
 
-![Demonstração do dashboard](GIF)
+![Demonstração do dashboard](https://i.imgur.com/GRxdylK.gif)
 
-🔗 **Visualizar dashboard:** [Clique aqui](LINK)
+🔗 **Baixe o dashboard completo:** [Clique aqui](./Projeto%20Parrot%20Technology/Projeto%20Dashboard%20Parrot%20Technology.pbix)
 
 #### Objetivo
 
-Analisar movimentações financeiras para identificar padrões de receita e despesa, acompanhar a evolução das transações ao longo do tempo e entender a distribuição por bancos, tipo de movimentação e forma de pagamento.
+Desenvolver um dashboard para monitoramento integrado da performance comercial, contemplando indicadores de receita, volume de vendas, rentabilidade, atingimento de metas e participação de mercado. A solução também permite análises de ranking de clientes e produtos, incluindo análise de Pareto, além da simulação de cenários para avaliação de impactos em custos e margens.
 
 #### Database
 
@@ -39,15 +39,63 @@ Base em **Microsoft Access** contendo variáveis que foram organizadas nas segui
 
 #### Principais Métricas
 
-- Valor total movimentado  
-- Quantidade de transações  
-- Distribuição por tipo de movimentação  
-- Movimentações por banco  
-- Evolução temporal das transações  
+💰 Financeiro
+- Receita Soma  
+- Receita Média  
+- Receita Soma Brasil  
+- Receita Soma LTM  
+- Receita Soma YTD  
+- Receita Soma YoY  
+- Receita Soma YoY %  
+- Receita Soma -1 Mês  
+- Receita Soma -1 Mês crescimento %  
+- Receita Soma sem Filtros Selecionados  
+- Receita Soma Filtros Selecionados  
+- Receita % total Filtros Selecionados  
+- Receita % total sem Filtros Selecionados  
+- Custos Soma  
+- Lucro Bruto Soma  
+- Margem Bruta  
+
+📦 Vendas & Volume
+- Vendas Qtd Soma  
+- Vendas Qtd Média  
+- Vendas Qtd Máx  
+- Vendas Qtd Mín  
+- Pedidos Qtd  
+- Pedidos < 50k  
+- Pedidos > 50K  
+- Contratações  
+- Clientes Qtd  
+
+📈 Performance & Metas
+- Meta Soma  
+- Meta Soma YTD  
+- Meta perfomance  
+- Meta perfomance YTD  
+- Máximo Velocímetro  
+- Máximo Velocímetro YTD  
+
+🌍 Mercado & Comparativos
+- Market Share Brasil  
+- Market Share ex-Brasil  
+- Repres. vs Brasil  
+
+🏆 Rankings & Análises
+- Rank Categoria Produtos  
+- Receita Soma Acumulada Rank Categoria Produtos  
+- Receita Soma Acumulada Rank Categoria Produtos % total  
+- Rank Clientes Geral  
+- Rank Clientes Seleção  
+
+🧪 Simulações & Cenários
+- Simulação Custo Variação  
+- Simulação Lucro Bruto  
+- Simulação Margem Bruta  
 
 #### Ferramentas Utilizadas
 
 - Power BI  
-- Power Query  
+- Power Query (linguagem M) 
 - DAX  
-- Excel  
+- Microsoft Access
