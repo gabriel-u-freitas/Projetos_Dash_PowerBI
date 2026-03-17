@@ -13,7 +13,7 @@ Os projetos exploram **Power Query, modelagem de dados e criação de métricas 
 
 ### Dashboard Overview Parrot Technology
 
-![Demonstração do dashboard](https://i.imgur.com/GRxdylK.gif)
+![Demonstração do dashboard](./Projeto%20Parrot%20Technology/Demonstra%C3%A7%C3%A3o%20Parrot%20Technology.gif)
 
 🔗 **Baixe o dashboard completo:** [Clique aqui](./Projeto%20Parrot%20Technology/Projeto%20Dashboard%20Parrot%20Technology.pbix)
 
