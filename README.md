@@ -19,7 +19,7 @@ Os projetos exploram **Power Query, modelagem de dados e criação de métricas 
 
 #### Objetivo
 
-Desenvolver um dashboard para monitoramento integrado da performance comercial, contemplando indicadores de receita, volume de vendas, rentabilidade, atingimento de metas e participação de mercado. A solução também permite análises de ranking de clientes e produtos, incluindo análise de Pareto, além da simulação de cenários para avaliação de impactos em custos e margens.
+Desenvolver um dashboard executivo completo para monitoramento integrado da performance comercial, contemplando indicadores de receita, volume de vendas, rentabilidade, atingimento de metas e participação de mercado. A solução também permite análises de ranking de clientes e produtos, incluindo análise de Pareto, além da simulação de cenários para avaliação de impactos em custos e margens.
 
 #### Database
 
@@ -99,3 +99,56 @@ Base em **Microsoft Access** contendo variáveis que foram organizadas nas segui
 - Power Query (linguagem M) 
 - DAX  
 - Microsoft Access
+
+---
+
+### Dashboard Comercial
+
+![Demonstração do dashboard](./Projeto%20Dashboard%20Comercial/Demonstra%C3%A7%C3%A3o%20Dash%20Comercial.gif)
+
+🔗 **Baixe o dashboard completo:** [Clique aqui](./Projeto%20Dashboard%20Comercial/Projeto%20Dashboard%20Comercial%20-%20Prof.%20Omar%20Omar.pbix)
+
+#### Objetivo
+
+Desenvolver um dashboard para análise da performance de vendas, com foco na qualidade da receita, integrando indicadores de volume, faturamento, custos e rentabilidade. A solução permite avaliar o impacto financeiro de devoluções e descontos, além de analisar o desempenho por produto, categoria, marca e canal, apoiando a identificação de oportunidades de melhoria de margem.
+
+#### Database
+
+Base em **Excel**, não normalizada, contendo as variáveis:
+
+- Data_venda
+- Canal
+- ProductKey
+- Cod_Produto
+- Desc_Produto
+- Categoria_Produto
+- Marca_Produto
+- Classe_Produto
+- Custo_Unit
+- Preco_Unit
+- Qtd_Venda
+- Qtd_Devolução
+- Valor_Devolução
+- Qtd_Desconto
+- Valor_Desconto
+
+#### Principais Métricas
+
+- Quantidade Vendida
+- Receita Bruta
+- Receita Líquida
+- Custo
+- Lucro Bruto
+- Margem Bruta
+- Quantidade de Devoluções
+- Taxa de Devolução
+- Impacto Financeiro Devoluções
+- Taxa de Desconto Médio Concedido
+- Impacto Financeiro Descontos
+
+#### Ferramentas Utilizadas
+
+- Power BI
+- Power Query (linguagem M) 
+- DAX  
+- Excel
