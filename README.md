@@ -104,7 +104,7 @@ Base em **Microsoft Access** contendo variáveis que foram organizadas nas segui
 
 ### Dashboard Comercial
 
-![Demonstração do dashboard](./Projeto%20Dashboard%20Comercial/Demonstra%C3%A7%C3%A3o%20Dash%20Comercial.gif)
+![Demonstração do dashboard](./Projeto%20Dashboard%20Comercial/demonstracao%20sales%20perfomance%20analysis.gif)
 
 🔗 **Baixe o dashboard completo:** [Clique aqui](./Projeto%20Dashboard%20Comercial/Projeto%20Dashboard%20Comercial%20-%20Prof.%20Omar%20Omar.pbix)
 
